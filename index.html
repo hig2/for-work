@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="ru">
+ <head>
+  <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="/image/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" type="text/css" href="css/main.css">
+  <script type="text/javascript" src="js/jquery/jquery-3.4.1.min.js"></script>
+  <script type="text/javascript" src="js/jquery_nicescroll/jquery.nicescroll.min.js"></script>
+  <script type="text/javascript" src="js/jquery_magnific-popup/jquery.magnific-popup.min.js"></script>
+  <script type="text/javascript" src="js/style.js"></script>
+  <title>Домашняя страница</title>
+ </head>
+ <body>
+    <div class="container">
+      <div class="tabs">
+        <ul class="tabsUl">
+          <li data-tabs="0" class="tabsLi active">Профиль</li>
+          <li data-tabs="1" class="tabsLi">Друзья пользователя</li>
+        </ul>
+      </div>
+<!--tab_0-->
+      <div class="content tab_0">
+        <div class="imageCont">
+          <div class="shedowFilter"></div><div class="image"><img src="image/img.jpg" alt="Фото"></div>
+          <button class="addFrendButt" type="button" name="button">Добавить в друзья</button>
+        </div>
+        <div class="infoCont">
+          <input class="editName" type="text" value="">
+          <h2 class="infoContName">Виталя Гора</h2>
+          <span class="infoContArt">г.<span class="infoContCity">Нижние Шахты</span></span>
+          <div class="infoContEdit">
+            <input data-input="0" class="editMarita" type="text" vlue="">
+            <input data-input="1" class="editPhone " type="tel" autocomplete="tel" value="">
+            <input data-input="2" class="editEmail " type="email" autocomplete="email" value="">
+          </div>
+          <table class="infoTableTitle" cellspacing="0">
+           <tr>
+            <td class="infoDataTitleLi maritalTitle">Семейное положение</td>
+            <td data-edit="0" class="infoDataStatLi maritalStat">холост</td>
+           </tr>
+           <tr>
+            <td class="infoDataTitleLi phoneTitle">Телефон</td>
+            <td data-edit="1" class="infoDataStatLi phoneStat">+7 (440) 554-32-12</td>
+           </tr>
+           <tr>
+            <td class="infoDataTitleLi emailTitle">E-mail</td>
+            <td data-edit="2" class="infoDataStatLi emailStat"><a class="emailLink" href="#">vitalya@gora.ru</a></td>
+           </tr>
+          </table>
+          <span class="hobbyLabel">Интересы</span>
+          <ul class="hobbyList">
+            <li class="hobbyListItem" >Музыка</li>
+            <li class="hobbyListItem" >Компьютеры</li>
+            <li class="hobbyListItem" >Радио</li>
+            <a href="#popupForm" class="addHobby">+</a>
+          </ul>
+        </div>
+      </div>
+<!--tab_1-->
+      <div class="content tab_1 disable ">
+        <div class="frendList scroll">
+          <div class="frendItem frendOnline">
+            <div class="imageContFrend">
+              <img src="image/frends/01.jpg" alt="Фото">
+            </div>
+            <div class="frendInfoCont">
+              <div class="frendNameCont"><a class="frendName" href="#">Лев Бронштейн</a></div>
+              <span class="frendsCityArt">г. <span class="frensCityName"> Ханты-Мансийск</span></span>
+            </div>
+          </div>
+
+          <div class="frendItem">
+            <div class="imageContFrend">
+              <img src="image/frends/02.jpg" alt="Фото">
+            </div>
+            <div class="frendInfoCont">
+              <div class="frendNameCont"><a class="frendName" href="#">Находка Капитал</a></div>
+              <span class="frendsCityArt">г. <span class="frensCityName"> Усть-Бельск</span></span>
+            </div>
+          </div>
+
+          <div class="frendItem">
+            <div class="imageContFrend">
+              <img src="image/frends/03.jpg" alt="Фото">
+            </div>
+            <div class="frendInfoCont">
+              <div class="frendNameCont"><a class="frendName" href="#">Яндекс Петренко</a></div>
+              <span class="frendsCityArt">г. <span class="frensCityName"> Пермь</span></span>
+            </div>
+          </div>
+
+          <div class="frendItem frendOnline">
+            <div class="imageContFrend">
+              <img src="image/frends/04.jpg" alt="Фото">
+            </div>
+            <div class="frendInfoCont">
+              <div class="frendNameCont"><a class="frendName" href="#">Успех Возможностей</a></div>
+              <span class="frendsCityArt">г. <span class="frensCityName"> Радонеж</span></span>
+            </div>
+          </div>
+
+          <div class="frendItem frendOnline">
+            <div class="imageContFrend">
+              <img src="image/frends/05.jpg" alt="Фото">
+            </div>
+            <div class="frendInfoCont">
+              <div class="frendNameCont"><a class="frendName" href="#"> Инна Нашлась</a></div>
+              <span class="frendsCityArt">г. <span class="frensCityName"> Омск</span></span>
+            </div>
+          </div>
+
+          <div class="frendItem frendOnline">
+            <div class="imageContFrend">
+              <img src="image/frends/06.jpg" alt="Фото">
+            </div>
+            <div class="frendInfoCont">
+              <div class="frendNameCont"><a class="frendName" href="#"> Алла Подольская</a></div>
+              <span class="frendsCityArt">г. <span class="frensCityName"> Петропаловск-Камчатский</span></span>
+            </div>
+          </div>
+
+          <div class="frendItem frendOnline">
+            <div class="imageContFrend">
+              <img src="image/frends/06.jpg" alt="Фото">
+            </div>
+            <div class="frendInfoCont">
+              <div class="frendNameCont"><a class="frendName" href="#"> Алла Подольская</a></div>
+              <span class="frendsCityArt">г. <span class="frensCityName"> Петропаловск-Камчатский</span></span>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+<!--Окно popup-->
+  <div class="popupCont">
+      <form id="popupForm">
+        <div class="infoForm"><p class="infoMes">Длина введенного сообщения от 2-30 символов.</p></div>
+        <input required autofocus class="popupText" type="text" placeholder="Ваш интерес.">
+        <button class="popupButton" type="submit" name="button">Добавить интерес</button>
+        <div class="infoForm"><p class="answerMes"></p></div>
+      </form>
+  </div>
+<!-- -->
+ </body>
+</html>

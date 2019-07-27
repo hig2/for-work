@@ -1,0 +1,95 @@
+
+@media all and (max-width: 500px){
+  body{
+    padding: 0;
+    padding-bottom: 10px;
+  }
+  .container{
+    min-width: 300px;
+    width: auto;
+    margin: 0;
+    .tab_0{
+      text-align: center;
+    }
+    .tab_1{
+      max-height: 459px;
+      .frendList{
+      height: 459px;
+      }
+    }
+  }
+  .container .content .imageCont{
+    float: none;
+    display: block;
+    margin: 0 auto;
+  }
+  .editMarita, .editPhone, .editEmail {
+    width: 120px;
+    right: 10px;
+  }
+  .editMarita {
+    top: 22px;
+  }
+  .editPhone {
+    top: 45px;
+  }
+  .editEmail {
+    top: 68px;
+  }
+  .infoTableTitle .emailStat, .infoTableTitle .phoneStat, .infoTableTitle .maritalStat{
+    max-width: 120px;
+    text-align: left;
+  }
+  .maritalTitle, .phoneTitle, .emailTitle {
+    text-align: left;
+  }
+  .addHobby {
+    line-height: 1;
+    top: 1px;
+    margin-bottom: 6px;
+    width: 30px;
+    height: 20px;
+    border: 1px solid #e67f00;
+    border-radius: 2px;
+    color: white;
+    text-align: center;
+    line-height: 1.2;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+  }
+  .hobbyList .hobbyListItem{
+    margin-bottom: 6px;
+    margin-right: 4px;
+  }
+  .errorValue{
+    right: 50%;
+    top: 227px;
+    margin-right: -64px;
+  }
+  .editName{
+    top: 253px;
+    width: 260px;
+    margin-left: -141px;
+    left: 50%;
+  }
+  .infoCont {
+    width: 290px;
+    .infoContName{
+      text-align: left;
+    }
+    .infoContArt {
+      position: relative;
+      top: 10px;
+      left: -102px;
+      bottom: 0px;
+    }
+  }
+  .infoContCity{
+    font-size: 14px;
+  }
+  .hobbyLabel{
+    text-align: center;
+    width: 100px;
+    margin-left: 84px;
+  }
+}
