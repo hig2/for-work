@@ -1,7 +1,7 @@
 * {
   padding: 0px;
   margin: 0px;
-  font-family: sans-serif; }
+  font-family: 'Arial', sans-serif; }
 
 h2 {
   font-size: 23px;
@@ -26,7 +26,6 @@ body {
   font-size: 14px;
   border-top-right-radius: 5px;
   border-top-left-radius: 5px;
-  font-family: sans-serif;
   cursor: pointer;
   -webkit-user-select: none;
   -moz-user-select: none; }
@@ -377,6 +376,11 @@ body .container .disable {
   border-bottom: 1px solid #ff2a9c;
   background-color: rgba(255, 42, 156, 0.4); }
 
+@font-face {
+  font-family: 'Arial';
+  src: url("../font/Arial/arial.ttf") format("ttf");
+  font-weight: normal;
+  font-style: normal; }
 @media all and (max-width: 500px) {
   body {
     padding: 0;

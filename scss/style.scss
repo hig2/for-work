@@ -15,7 +15,7 @@ $colorGreenUp: rgba(100, 186, 3, 1);
 *{
   padding: 0px;
   margin: 0px;
-  font-family: sans-serif;
+  font-family: 'Arial', sans-serif;
 }
 h2{
   font-size: 23px;
@@ -45,7 +45,6 @@ body{
       font-size: 14px;
       border-top-right-radius: 5px;
       border-top-left-radius: 5px;
-      font-family: sans-serif;
       cursor: pointer;
       -webkit-user-select: none;
       -moz-user-select: none;
